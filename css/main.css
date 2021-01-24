@@ -2,13 +2,50 @@
 *{
   padding: 0;
   margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'roboto';
+  font-weight: 400;
 }
-
-
-
-
-
-
+body{background: #696969;}
+/* header */
+.header{
+  width: 1140px;
+  min-height: 200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo{
+  margin: 50px 0;
+  display: flex;
+}
+.list{
+  display: flex;
+}
+.list a{
+  padding: 10px 4px 16px;
+  margin: 0 19px ;
+  display: flex;
+  color: #bab0b0;
+  font-size: 18px;
+  line-height: 14px;
+  border-bottom: 1px solid transparent;
+}
+.list a:hover{
+  border-block-color: #4581b7;
+  color: #4581b7;
+}
+.banner{
+  width: 100%;
+  min-height: 450px;
+  object-fit: cover;
+  margin-top: 50px;
+}
 
 
 
