@@ -58,7 +58,7 @@
 }
 .main,
 .sidebar{
-  background: #f0f0f0;
+  background: #232323;
   padding: 40px;
   min-height: 400px;
 }
@@ -93,7 +93,7 @@
   margin: 0 auto;
   padding: 40px;
   /* border: 1px solid black; */
-  background: #f0f0f0;
+  background: #232323;
   display: flex;
   justify-content: space-between;
   align-items: center;
